@@ -8,7 +8,8 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "treygriffith/oz": "*"
+    "treygriffith/oz": "*",
+    "JayceTDE/pend": "*"
   },
   "scripts": [
     "index.js",

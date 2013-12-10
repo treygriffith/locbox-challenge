@@ -5,6 +5,11 @@ build: components index.js locbox-challenge.css
 components: component.json
 	@component install --dev
 
+new:
+	rm -fr build
+	
+
+
 clean:
 	rm -fr build components
 

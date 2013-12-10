@@ -1,0 +1,14 @@
+.row {
+  clear:both;
+}
+
+.cell {
+  float: left;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.cell:hover {
+  background-color:blue;
+}

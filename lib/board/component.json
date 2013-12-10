@@ -7,6 +7,10 @@
   "development": {},
   "license": "MIT",
   "main": "index.js",
+  "dependencies": {
+    "treygriffith/oz": "*",
+    "component/emitter": "*"
+  },
   "scripts": [
     "index.js",
     "template.js"
