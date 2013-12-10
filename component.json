@@ -12,8 +12,8 @@
     "index.js"
   ],
   "styles": [
-    "style.css"
+    "locbox-challenge.css"
   ],
   "paths": [".", "lib"],
-  "local": ["game"]
+  "local": ["boot"]
 }

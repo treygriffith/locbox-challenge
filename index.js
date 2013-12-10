@@ -1,1 +1,1 @@
-require("game");
+require("boot");

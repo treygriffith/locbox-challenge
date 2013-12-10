@@ -1,0 +1,20 @@
+.game {
+
+}
+
+.players {
+
+}
+
+.player {
+  float:left;
+  width: 50%;
+}
+
+.player .turn {
+  font-weight:bold;
+}
+
+.player .turn:before {
+  content: '>';
+}

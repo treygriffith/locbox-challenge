@@ -1,5 +1,6 @@
 {
-  "name": "game",
+  "name": "boot",
+  "repo": "tg/boot",
   "description": "",
   "version": "0.0.1",
   "keywords": [],
@@ -7,17 +8,8 @@
   "development": {},
   "license": "MIT",
   "main": "index.js",
-  "dependencies": {
-    "treygriffith/oz": "*"
-  },
   "scripts": [
-    "index.js",
-    "template.js"
+    "index.js"
   ],
-  "styles": [
-    "game.css"
-  ],
-  "local": [
-    "board"
-  ]
+  "local": ["game"]
 }
