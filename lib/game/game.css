@@ -9,6 +9,11 @@
 .player {
   float:left;
   width: 50%;
+  font-size: 50px;
+}
+
+player:nth-child(2) {
+  text-align: right;
 }
 
 .player .turn {
