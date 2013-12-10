@@ -1,0 +1,19 @@
+{
+  "name": "locbox-challenge",
+  "repo": "treygriffith/locbox-challenge",
+  "description": "LocBox Coding Challenge",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "paths": [".", "lib"],
+  "local": ["game"]
+}
