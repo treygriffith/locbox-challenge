@@ -25,6 +25,12 @@
   content: '> ';
 }
 
+.undo {
+  clear:both;
+  margin:0 auto;
+  display:block;
+}
+
 .gameOver {
   position:absolute;
   top: 0;

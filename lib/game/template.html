@@ -6,9 +6,7 @@
     </div>
   </div>
 
-  <div oz-if="inProgress">
-    <button oz-evt="click:undo">Undo Last Move</button>
-  </div>
+  <button oz-if="inProgress" oz-evt="click:undo" class="undo">Undo Last Move</button>
 
   <div oz-if="gameOver" class="gameOver">
 
