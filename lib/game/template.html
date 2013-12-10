@@ -1,9 +1,22 @@
 <div class="game">
 
-  <div class="players">
+  <div oz-if="inProgress" class="players">
     <div oz-each="players" class="player">
       <span oz-text="name" oz-attr="class:turnClass"></span>
     </div>
+  </div>
+
+  <div oz-if="gameOver" class="gameOver">
+
+    <div oz-if="draw" class="draw">
+      DRAW
+    </div>
+
+    <div oz-if="winner" class="victory">
+      <span oz-text="name"></span> Wins!
+    </div>
+
+    <button oz-evt="click:newGame" class="new-game">Play Again</button>
   </div>
 
 </div>
