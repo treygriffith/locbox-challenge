@@ -1,9 +1,14 @@
+.board {
+  width: 306px;
+  margin: 0 auto;
+}
+
 .row {
   clear:both;
 }
 
 .cell {
-  float: left;
+  float:left;
   border: 1px solid black;
   width: 100px;
   height: 100px;
@@ -11,4 +16,13 @@
 
 .cell:hover {
   background-color:blue;
+}
+
+.cell div {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  text-align:center;
+  font-size: 50px;
+  line-height: 100px;
 }
