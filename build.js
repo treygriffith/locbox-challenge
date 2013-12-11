@@ -1822,6 +1822,9 @@ Game.prototype.generateBoard = function (n) {\n\
   this.board.on('select', function (cell) {\n\
     var player = game.turn;\n\
 \n\
+    // don't select a cell if it's been selected\n\
+    if(cell.player) return;\n\
+\n\
     cell.player = player;\n\
     player.cells.push(cell);\n\
     game.lastTurn = cell;\n\
