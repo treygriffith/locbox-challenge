@@ -1,0 +1,77 @@
+.board {
+  width: 306px;
+  margin: 0 auto;
+}
+
+.row {
+  clear:both;
+}
+
+.cell {
+  float:left;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+.cell:hover {
+  background-color:blue;
+}
+
+.cell div {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  text-align:center;
+  font-size: 50px;
+  line-height: 100px;
+}
+.game {
+  position:relative;
+  height: 100%;
+}
+
+.players {
+  clear:both;
+}
+
+.player {
+  float:left;
+  width: 50%;
+  font-size: 50px;
+}
+
+.player:nth-child(2) {
+  text-align: right;
+}
+
+.player .turn {
+  font-weight:bold;
+}
+
+.player .turn:before {
+  content: '> ';
+}
+
+.undo {
+  clear:both;
+  margin:0 auto;
+  display:block;
+}
+
+.gameOver {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  text-align:center;
+  background-color:white;
+}
+body {
+  font: 14px "Helvetica Neue", Helvetica, Arial;
+  padding: 80px;
+  color: #333;
+  height: 100%;
+}
